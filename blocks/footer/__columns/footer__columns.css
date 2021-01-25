@@ -1,0 +1,15 @@
+.footer__columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+
+@media (max-width:320px){
+    .footer__columns{
+        display: block;
+        padding-top: 64px;
+        padding-left: 16px;
+        
+    }
+}

@@ -1,0 +1,16 @@
+.section-title_theme_intro{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    text-align: start;
+}
+@media (max-width:320px){
+    .section-title_theme_intro{
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

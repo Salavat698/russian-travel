@@ -1,0 +1,22 @@
+.section-title_theme_lead{
+    margin-top: 56px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1024px){
+    .section-title_theme_lead{
+        margin-top: 48px;
+    }
+}
+@media (max-width: 320px){
+    .section-title_theme_lead{
+        font-size: 40px;
+        line-height: 44px;
+    }
+}

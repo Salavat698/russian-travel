@@ -1,0 +1,19 @@
+.section-subtitle_theme_lead{
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 320px){
+    .section-subtitle_theme_lead{
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 16px;
+    }
+}

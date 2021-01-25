@@ -1,0 +1,56 @@
+@import url(../vendor/font.css);   /* font style */
+@import url(../vendor/normalize.css); /* добавил normalize для обнуления браузерных отступов */
+@import url(../blocks/page/page.css);/*общие стили  */
+/* стили для header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-item/header__lang-item.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang/_marker/header__lang_marker.css);
+/* style section-title*/
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_theme/section-title_theme_lead.css);
+@import url(../blocks/section-title/_theme/section-title_theme_intro.css);
+@import url(../blocks/section-title/_theme/section-title_theme_video.css);
+@import url(../blocks/section-title/_theme/section-title_theme_additional.css);
+@import url(../blocks/section-title/_theme/section-title_theme_cover.css);
+/* style section-subtitle */
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-subtitle/_theme/section-title_theme_video.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_additional.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_lead.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_cover.css);
+/* стили lead */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__pic/lead__pic.css);
+@import url(../blocks/lead/pic-image/lead__pic-image.css);
+@import url(../blocks/lead/pic-signature/lead__pic-signature.css);
+/* style intro */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+/* style photo-grid */
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+/* style places */
+@import url(../blocks/places/places.css);
+/* style place */
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url/place__url-heading.css);
+@import url(../blocks/place/__url/place__url-link.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraph/_first/place__paragraph_first.css);
+@import url(../blocks/place/__paragraph/_double/place__paragraph_double.css);
+/* style cover */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+/* style footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__autor/footer__autor.css);

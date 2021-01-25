@@ -1,0 +1,17 @@
+.section-subtitle_theme_cover{
+    margin: 32px auto;
+    max-width: 360px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+@media (max-width:320px){
+    .section-subtitle_theme_cover{
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 16px;
+    }
+}
