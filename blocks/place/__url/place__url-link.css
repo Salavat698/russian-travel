@@ -6,6 +6,12 @@
     text-decoration-line: underline;
     color: #FFFFFF;
 }
+@media (max-width:430px){
+    .place__url-link{
+        font-size: 10px;
+    }
+}
+
 .place__url-link:hover{
     opacity: 0.8;
 }

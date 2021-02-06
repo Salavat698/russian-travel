@@ -2,6 +2,14 @@
     margin-top: 26px;
     margin-bottom: 0;
     color: #FFFFFF;
+    align-self:flex-start;
+}
+
+@media (max-width:438px){
+    .place__paragraph-double{
+        font-size: 12px;
+        line-height: 14px;
+    }
 }
 
 @media (max-width:320px){

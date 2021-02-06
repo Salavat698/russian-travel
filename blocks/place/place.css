@@ -23,13 +23,27 @@
 }
 @media screen and (max-width:768px){
     .place{
-        /* grid-template-columns: repeat( auto-fill,minmax(352px, 1fr)); */
+        grid-template-columns: repeat( auto-fill,minmax(352px, 1fr));
         gap: 48px 32px;
         padding-left: 24px;
         padding-right: 24px;
         column-gap: 28px;
     }
 }
+
+@media screen and (max-width:640px){
+    .place{
+        grid-template-columns:1fr;
+    }
+}
+
+@media screen and (max-width:392px){
+    .place{
+        grid-template-columns:1fr;
+        gap: 5px;
+    }
+}
+
 
 @media screen and (max-width:320px){
     .place{
