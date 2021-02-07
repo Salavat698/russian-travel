@@ -3,6 +3,13 @@
     object-fit: cover;
     max-width: 100%;
 }
+@media screen and (max-width:825px){
+    .place__image{
+        max-width: 350px;
+    }
+}
+
+
 @media screen and (max-width:768px){
     .place__image{
         max-width: 340px;
