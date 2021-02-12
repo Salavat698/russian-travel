@@ -1,7 +1,12 @@
 .place__image{
     grid-row: 2/3;
     object-fit: cover;
-    max-width: 100%;
+    width: 100%;
+}
+@media screen and (max-width:1024px){
+    .place__image{
+        max-width: 440px;
+    }
 }
 @media screen and (max-width:825px){
     .place__image{
@@ -15,16 +20,9 @@
         max-width: 340px;
     }
 }
-
-@media screen and (max-width:640px){
+@media screen and (max-width:767px){
     .place__image{
         max-width: 100%;
-    }
-}
-
-@media screen and (max-width:438px){
-    .place__image{
-        max-width: 90%;
     }
 }
 
@@ -32,6 +30,7 @@
     .place__image{
         margin-top: 32px;
         padding: 0;
-        width: 288px;
+        width: 320px;
+        max-width: 100%;
     }
 }

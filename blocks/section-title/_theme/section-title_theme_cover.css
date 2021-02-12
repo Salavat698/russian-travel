@@ -17,6 +17,7 @@
         margin-top: 33px;
         margin-left: 16px;
         margin-right: 16px;
+        max-width: 250px;
     }
 }
 @media (max-width:320px){

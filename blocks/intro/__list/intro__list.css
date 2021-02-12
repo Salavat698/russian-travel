@@ -1,4 +1,5 @@
 .intro__list{
+    list-style-type: none;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -6,6 +7,7 @@
     color: #FFFFFF;
     margin-top: 33px;
     margin-bottom: 0;
+    padding-left:0;
 }
 @media screen and (max-width: 320px){
     .intro__list {

@@ -10,6 +10,11 @@
     width: 100%;
     height: auto;
 }
+@media (max-width: 1280px){
+    .section-subtitle_theme_lead{
+        max-width:600px;
+    }
+}
 @media (max-width: 320px){
     .section-subtitle_theme_lead{
         font-size: 16px;

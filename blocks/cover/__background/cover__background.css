@@ -7,19 +7,16 @@
     margin: 0 auto;
     max-width: 92.5vw;
     min-height: 57.81vw;
-    background-image: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url(../../../images/cover__background.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .cover__background:hover {
-    background-image: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url(../../../images/cover-trains.jpg);
+    opacity: 0.8;
+    background: #2A2C2F;
 }
 
 @media screen and (max-width: 1024px){
     .cover__background {
         max-width: 100vw;
-        height: 62.5vw;
+        max-height: 62.5vw;
     }
 
 }
