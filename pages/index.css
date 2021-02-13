@@ -12,12 +12,10 @@
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_theme/section-title_theme_lead.css);
 @import url(../blocks/section-title/_theme/section-title_theme_intro.css);
-@import url(../blocks/section-title/_theme/section-title_theme_video.css);
 @import url(../blocks/section-title/_theme/section-title_theme_additional.css);
 @import url(../blocks/section-title/_theme/section-title_theme_cover.css);
 /* style section-subtitle */
 @import url(../blocks/section-subtitle/section-subtitle.css);
-@import url(../blocks/section-subtitle/_theme/section-title_theme_video.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_additional.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_lead.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_cover.css);
@@ -55,3 +53,7 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__autor/footer__autor.css);
+body{
+    background-color: #2A2C2F; 
+}
+/* мне так сказал наставник знаю что бэм так не делают */
