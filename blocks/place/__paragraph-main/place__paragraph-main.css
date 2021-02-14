@@ -1,4 +1,4 @@
-.place__paragraph{
+.place__paragraph-main{
     grid-row: 2/3;
     grid-column:2/3;
     font-size: 18px;
@@ -8,7 +8,7 @@
     text-align: left;
 }
 @media (max-width:768px){
-    .place__paragraph{
+    .place__paragraph-main{
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -17,7 +17,7 @@
 }
 
 @media (max-width:320px){
-    .place__paragraph{
+    .place__paragraph-main{
         margin-left: 0;
         margin-top: 32px;
         padding-left: 16px;

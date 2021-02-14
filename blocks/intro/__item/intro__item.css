@@ -1,9 +1,4 @@
 .intro__item{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 163%;
-    color: #FFFFFF;
     margin-bottom: 0;
 }
 @media (max-width:320px){

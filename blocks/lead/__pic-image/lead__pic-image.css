@@ -8,9 +8,10 @@
 @media (max-width: 1280px){
     .lead__pic-image{
         max-width:984px;
-        max-height:555px;
+        height:615px;
     }
 }
+
 
 @media (max-width: 1024px){
     .lead__pic-image{
@@ -18,6 +19,13 @@
         max-height: 580px;
     }
 }
+@media (max-width: 1020px){
+    .lead__pic-image{
+        max-width:100%;
+        height: auto;
+    }
+}
+
 @media (max-width: 768px){
     .lead__pic-image{
         max-width:768px;

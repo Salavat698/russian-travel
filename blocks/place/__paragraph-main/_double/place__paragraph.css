@@ -1,19 +1,23 @@
-.place__paragraph-double{
+.place__paragraph{
     margin-top: 26px;
     margin-bottom: 0;
     color: #FFFFFF;
     align-self:flex-start;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
 }
 
-@media (max-width:438px){
-    .place__paragraph-double{
-        font-size: 12px;
-        line-height: 14px;
+@media (max-width:768px){
+    .place__paragraph{
+        font-size: 16px;
     }
 }
 
 @media (max-width:320px){
-    .place__paragraph_double{
+    .place__paragraph{
         margin-top: 25px;
         padding-left: 16px;
         padding-right: 16px;
